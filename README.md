@@ -119,3 +119,20 @@ $ apt-get install r-cran-irkernel
 
 para más información, esta es la página del kernel R: https://irkernel.github.io/
 
+### Widgets
+Los controles interactivos se pueden instarlar tanto con `pip` como con `conda`.
+
+Con pip:
+
+```
+pip install ipywidgets
+jupyter nbextension enable --py widgetsnbextension --sys-prefix
+```
+La opción `--sys-prefix` es necesaria en entornos virtuales.
+
+Con conda:
+```
+conda install -c conda-forge ipywidgets
+```
+
+
