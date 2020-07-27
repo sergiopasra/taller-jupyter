@@ -6,5 +6,5 @@ añadir a funciones dentro de un cuaderno.
 La documentación está disponible en https://ipywidgets.readthedocs.io/en/latest/
 
 
-[fibonacci.ipynb](fibonaccy.ipynb)
+[fibonacci.ipynb](fibonacci.ipynb)
 [Configuraciones planetarias.ipynb](Configuraciones%20planetarias.ipynb)
