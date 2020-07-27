@@ -42,6 +42,15 @@ de diferentes tipos.
 
 ## Celdas
 
+Las celdas contienen código ejecutable. 
+
+Aparte de código en Python, el kernel tiene capacidades adicionales:
+
+* Almacena todas las entradas de las celdas en la variable `In`
+* Las salidas en la variable `Out`
+* Muestra información sobre los objectos con `object_name?`
+* Más información [en la ayuda de IPython](https://ipython.readthedocs.io/en/stable/interactive/tutorial.html#)
+
 ## Markdown
 
 Markdown es un lenguage de texto plano que puede convertirse en estructurado
@@ -52,10 +61,6 @@ utiliza Jupyter es la versión de Github
 
 [Guía de Github](https://guides.github.com/features/mastering-markdown/)
 
-
-# Conversión de cuadernos
-
-# Cuadernos interactivos
-
-# Ejecución remota de cuadernos
+la versión de markdown en Jupyter permite escribir ecuaciones en latex, usando
+el escape $ $ para ecuaciones en el texto y $$ $$  para ecuaciones en su propio bloque.
 
