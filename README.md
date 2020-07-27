@@ -1,5 +1,7 @@
 # Taller de Jupyter
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sergiopasra/taller-jupyter/master)
+
 <!--- This is an HTML comment in Markdown -->
 
 Jupyter es una aplicación web que permite generar
