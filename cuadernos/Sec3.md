@@ -7,4 +7,5 @@ La documentación está disponible en https://ipywidgets.readthedocs.io/en/lates
 
 
 [fibonacci.ipynb](fibonacci.ipynb)
+
 [Configuraciones planetarias.ipynb](Configuraciones%20planetarias.ipynb)
