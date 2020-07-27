@@ -12,17 +12,18 @@ que pueden modificar la conversión.
 
 Utilizaremos como ejemplo el cuaderno de R [prac\_estat.ipynb](prac_estat.ipynb)
 
-## HTML
+## Via Jupyter app
+### HTML
 
 Basta con seleccionar `File->Download as->HTML` para generar una versión
 estática del cuaderno
 
-## PDF
+### PDF
 Para generar el PDF, se convierte el cuaderno a latex. Esta conversión suele
 requerir tener una instalación extensa de latex, con un buen montón de
 módulos (es difícil que funcione bien a la primera).
 
-## Slides
+### Slides
 Este es un formato de presentación basado en HTML con Javascript (https://revealjs.com/).
 
 Para establecer el la jerarquía de las celdas, utilizamos un menú especial:
@@ -35,5 +36,38 @@ que indica el orden en el que se distribuyen las celdas.
 * *Skip* se ignora
 * *Notas* aparece solo para el presentador
 
+## Con `nbconvert`
+
+La utilidad de línea de comando `nbconvert` se puede llamar explícitamente 
+para tener mayot control sobre la conversión.
+
+La documentación está disponible: https://nbconvert.readthedocs.io/en/latest/index.html
+
+Con `nbconvert` se puede controlar que celdas o partes de celdas aparecen
+en la salida. Por ejemplo, podemos eliminar el contenido de la celda y 
+dejar el resultado.
+
+Para ello se utiliza otro menú específico, `View->Cell Toolbar->Tags`.
+Con este menú podemos añadir etiquetas arbitrarias a las celdas.
+
+Por ejemplo, añadimos la etiqueta `remove_input` a la celda 2.
+
+Después ejecutamos `nbconvert` con el preprocesador adecuado:
+
+```
+jupyter nbconvert prac_estat.ipynb --TagRemovePreprocessor.remove_input_tags={\"remove_input\"}  --to slides
+```
+
+Para ver todas las opciones del comando, escribir:
+
+```
+jupyter nbconvert --help-all
+```
+
+Por ejemplo, se puede cambiar el tema de la presentación o el modo de generar el PDF:
+
+```
+jupyter nbconvert prac_estat.ipynb --TagRemovePreprocessor.remove_input_tags={\"remove_input\"}  -SlidesExporter.reveal_theme=serif --to slides
+```
 
 
