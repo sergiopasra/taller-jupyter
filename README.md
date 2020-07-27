@@ -135,4 +135,10 @@ Con conda:
 conda install -c conda-forge ipywidgets
 ```
 
+[Instroducción](cuadernos/Sec1.md)
+
+[Magic commands](cuadernos/Sec2.md)
+
+[Widgets](cuadernos/Sec3.md)
+
 
