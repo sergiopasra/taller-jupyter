@@ -1,6 +1,7 @@
 # Taller de Jupyter
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sergiopasra/taller-jupyter/master)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sergiopasra/taller-jupyter/blob/master/cuadernos/Configuraciones%20planetarias.ipynb)
 
 <!--- This is an HTML comment in Markdown -->
 
@@ -142,5 +143,9 @@ conda install -c conda-forge ipywidgets
 [Comandos mágicos](cuadernos/Sec2.md)
 
 [Widgets](cuadernos/Sec3.md)
+
+[Conversión](cuadernos/Sec4.md)
+
+[Servidores](cuadernos/Sec5.md)
 
 
