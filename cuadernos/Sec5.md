@@ -11,6 +11,21 @@ Este método permite acceder a un grupo de cuadernos personales a un solo usuari
 
 [Notebook Server](https://jupyter-notebook.readthedocs.io/en/stable/public_server.html)
 
+## nbviewer
+
+[nbviewer](https://nbviewer.jupyter.org/) es un servicio que pemite visualizar los cuadernos online. Es decir,
+para cada cuaderno público realiza la conversión `ipynb` a HTML. No permite
+ejecutar los cuadernos, solamente visualizarlos:
+
+Esta página contiene además una gran colección de cuadernos online de diferentes
+materias.
+
+Por ejemplo, para visualizar el cuaderno cfibonacci.ipynb, nos genera una url de:
+
+https://nbviewer.jupyter.org/github/sergiopasra/taller-jupyter/blob/master/cuadernos/cfibonacci.ipynb
+
+Como este cuaderno está alamacenado sin el contenido, no vemos los resultados de las celdas.
+
 
 ## Mybinder
 
